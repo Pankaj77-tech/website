@@ -9,12 +9,15 @@
     list-style: none;
     scroll-behavior: smooth;
 }
-
+nav ul li a{
+    font-weight: bolder;
+}
 
 body{
     font-family: monsterrat;
 
 }
+
 
 .big-rect{
     background-image: url("https://d2kq0urxkarztv.cloudfront.net/6115365089b24b03933e5ffb/3039667/upload-21d7070c-4256-4226-87da-2951d6eda4e1.jpg ");
@@ -66,11 +69,11 @@ body{
 #carouselExampleControls{
     align-items: flex-end;
 }
-.enquirybtn{
+/* .enquirybtn{
     position: fixed;
     bottom: 200px;
     right: 0px;
-    /* right: 50px; */
+    right: 50px;
 }
 .enquirybtn a{
     width: 45px;
@@ -94,7 +97,7 @@ body{
 .enquiry{
     background-color: aqua;
 
-}
+} */
 .content-box{
     width: 500px;
     background-color: #fff;
